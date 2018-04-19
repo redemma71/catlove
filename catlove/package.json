@@ -1,0 +1,32 @@
+{
+  "name": "catlove",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src react-scripts start",
+    "build": "NODE_PATH=src react-scripts build",
+    "test": "NODE_PATH=src react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001"
+},
+"keywords": [
+  "cat dating app",
+  "CS602",
+  "BU Computer Science",
+  "Andy Sheehan",
+  "Homework 4"
+],
+"repository": {
+  "type": "git",
+  "url": "https://github.com/redemma71/catlove"
+},
+"author": "Chad David Cover",
+"license": "MIT"
+}
